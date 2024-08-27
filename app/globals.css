@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar {
+  width: 0;
+}
+
+.calc {
+  width: calc(100% / 3 - 10px);
+}
+
+@media screen and (max-width: 640px) {
+  .calc {
+    width: calc(100% / 1);
+  }
+}
+
+.calc_header {
+  width: calc(100% / 2 - 8px);
+}
+
+.card:hover {
+  .number-box {
+    background-color: #2b9ea9;
+  }
+  .nomor {
+    color: #272f33;
+  }
+  .arti {
+    color: #2b9ea9;
+  }
+  border: 1px solid #2ca4ab;
+}
