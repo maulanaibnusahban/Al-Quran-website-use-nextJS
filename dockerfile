@@ -1,25 +1,26 @@
-# Node Install
+# Use official Node.js image from Docker Hub
 FROM node:20.11.1
 
-# Set directory to /app
+# Set working directory to /app
 WORKDIR /app
 
-COPY package.js
+# Copy package.json
+COPY package*.json ./
 
-# Install packages
+# Install npm packages
 RUN npm install
 
-# copy files to /app
+# Copy the rest of the application code to /app
 COPY . .
 
-# Build This Project
+# Build the project
 RUN npm run build
 
-# create port 80 
+# Expose the port that the app will run on
 EXPOSE 80
 
 # Define environment variable
 ENV API_QURAN="https://equran.id/api/v2/surat/"
 
-# Run app.py when the container launches
+# Start the app
 CMD ["npm", "start"]
