@@ -1,6 +1,4 @@
-import { Data } from "@/data/intervaces";
 import Card from "./ui/Card";
-import Link from "next/link";
 
 async function AllSurah() {
   const apiQuran: any = process.env.API_QURAN;

@@ -11,7 +11,7 @@ export const NAV_SIDEBAR = [
             >`,
   },
   {
-    href: "/",
+    href: "#about_quran",
     key: "tentang_alquran",
     label: "Tentang Al-Quran",
     svg: `<svg xmlns="http://www.w3.org/2000/svg" height="16" width="14" viewBox="0 0 448 512" fill="white">
@@ -21,7 +21,7 @@ export const NAV_SIDEBAR = [
             >`,
   },
   {
-    href: "/",
+    href: "/#read_surah",
     key: "baca_alquran",
     label: "Baca Al-Quran",
     svg: `<svg xmlns="http://www.w3.org/2000/svg" height="16" width="14" viewBox="0 0 448 512" fill="white">
@@ -31,7 +31,7 @@ export const NAV_SIDEBAR = [
             >`,
   },
   {
-    href: "/",
+    href: "https://github.com/maulanaibnusahban/",
     key: "git",
     label: "Git",
     svg: `<svg xmlns="http://www.w3.org/2000/svg" height="16" width="14" viewBox="0 0 448 512" fill="white">
@@ -41,7 +41,7 @@ export const NAV_SIDEBAR = [
             >`,
   },
   {
-    href: "/",
+    href: "/kontak",
     key: "Hubungi Development",
     label: "Hubungi Development",
     svg: `<svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512" fill="white">
