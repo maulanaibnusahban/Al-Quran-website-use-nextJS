@@ -48,7 +48,7 @@ function Navbar() {
           <Link href="/#read_surah">
             <li className="hover:text-[#2ba4ac] hover:border-b-2 border-[#2ba4ac] transition-all">Baca Al-Quran</li>
           </Link>
-          <Link href="/">
+          <Link href="/kontak">
             <li className="hover:text-[#2ba4ac] hover:border-b-2 border-[#2ba4ac] transition-all">Kontak</li>
           </Link>
         </ul>

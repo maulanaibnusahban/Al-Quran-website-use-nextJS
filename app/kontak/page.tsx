@@ -4,7 +4,7 @@ import React from "react";
 function Kontak() {
   return (
     <main className="pt-28 pb-14 px-32 flex justify-center items-center text-white h-screen">
-      <p className="text-lg underline cursor-default">Coming Soon 🙏</p>
+      <p className="text-lg underline cursor-default text-nowrap">Coming Soon 🙏</p>
 
       {/* <div className="bg-[#353a40] w-full flex h-full rounded-lg p-10">
         <div className="flex flex-col w-[40%] items-center pt-20 px-5 relative">
